@@ -64,7 +64,7 @@ loginForm.onsubmit = (e) => {
     }
     //if error class not contain in email and pass then user can enter
     if (!eField.classList.contains("error") && !pField.classList.contains("error")) {
-        window.location.href = "home.html";
+        window.location.href = "index.html";
         console.log("Form submitted");
     }
 }
