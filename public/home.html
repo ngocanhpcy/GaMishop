@@ -1,0 +1,468 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="shortcut icon" type="image/svg" href="images/logo-1.svg" />
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- custom css file link-->
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript">
+        window.$crisp = [];
+        window.CRISP_WEBSITE_ID = "e4983e6a-06f0-42ca-b683-b7723850abc0";
+        (function () {
+            d = document; s = d.createElement("script");
+            s.src = "https://client.crisp.chat/l.js"; s.async = 1;
+            d.getElementsByTagName("head")[0].appendChild(s);
+        })();</script>
+</head>
+<body>
+    <!-- header section starts-->
+
+    <header class="header">
+
+        <a class="logo">
+            <img width="70" height="50" src="images/logo-1.svg" />
+            <img src="images/Gami-1.svg" />
+        </a>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="review.html">Review</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" placeholder="Search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/prod-5_1-768x768.jpg" alt="" />
+                <div class="content">
+                    <h3> Eco Formula</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">1</span>
+                    <span class="price">
+                       $20.50
+                    </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/prod-6_1-768x768.jpg" alt="" />
+                <div class="content">
+                    <h3> Gray Sweater</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">1</span>
+                    <span class="price">
+                        $19.00
+                    </span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/prod-4-768x768.jpg" alt="" />
+                <div class="content">
+                    <h3> Pillow</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">1</span>
+                    <span class="price">
+                       
+                        $25.00
+                    </span>
+                </div>
+            </div>
+            <h3 class="total"> Total: <span>$ 64.5</span></h3>
+            <a href="Checkout.html" class="btn">Checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login form</h3>
+            <div class="field email">
+                <div class="input-area">
+                    <input type="email" placeholder="Enter your email" class="box" />
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Enter your password" class="box" />
+                    <i class="icon fas fa-lock"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me" />
+                <label for="remember-me">Remember me</label>
+            </div>
+            <input type="submit" value="Login now" class="btn" />
+            <p>forget password? <a href="#">Click here</a></p>
+            <p>don't have an account? <a href="register.html">Create one</a></p>
+        </form>
+    </header>
+
+    <!-- header section ends -->
+
+
+    <section class="home">
+
+        <div class="slides-container">
+            <div class="slide active">
+                <div class="content">
+                    <span style="color:#f69946">Welcome to Gami</span>
+                    <h3 style="color: #564741">Best Care of <br /> Our Little Friends</h3>
+                    <a href="shop.html" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="images/img-14-1.png" alt="">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <span style="color:#f69946">Welcome to Gami</span>
+                    <h3 style="color: #564741">Best Care of <br /> Our Little Friends</h3>
+                    <a href="shop.html" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="images/img-layout-7-1.png" alt="">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <span style="color:#f69946">Welcome to Gami</span>
+                    <h3 style="color: #564741">Best Care of <br /> Our Little Friends</h3>
+                    <a href="shop.html" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="images/slider3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+    </section>
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="images/banner-1.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>up to 50% off</h3>
+                <a href="shop.html" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner-3.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>up to 50% off</h3>
+                <a href="shop.html" class="btn">shop now</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner-2.png" alt="">
+            <div class="content">
+                <span>limited sales</span>
+                <h3>up to 50% off</h3>
+                <a href="shop.html" class="btn">shop now</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="products">
+
+        <h1 class="title"> Popular <span>products</span> <a href="popular_products.html">view all >></a> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/pf-06.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Natural's Kitchen</h3>
+                    <div class="price">$17.90</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/be-07.png" id="showdetail" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bibs for cats and dogs with leash AMBABY PET</h3>
+                    <div class="price">$8.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/pf-25.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mini Steak Beef</h3>
+                    <div class="price">$25.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-03.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Perfect coat (Baby powder)</h3>
+                    <div class="price">$21.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--our blog-->
+
+    <section class="blogs">
+
+        <h1 class="title"> our <span>blogs</span> <a href="blog.html">view all >></a> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 17th Oct, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>The best Flea medicine for any Dogs</h3>
+                    <p>Whether your pup is a mile-a-minute, hyperactive Energizer battery on four legs...</p>
+                    <a href="blog1.html" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 18th Oct, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>The best healthy treats for your cats</h3>
+                    <p>Dogs that are anxious or nervous run the risk of fear-biting or other dog fights..</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-calendar"></i> 20th Oct, 2021 </a>
+                        <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                    </div>
+                    <h3>How long do cats live? Cat age chart </h3>
+                    <p>There’s a saying. If you want someone to love you forever, buy a dog...</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="review">
+
+        <div class="box">
+            <div class="user">
+                <img src="images/img-circle-9.png" alt="">
+                <div class="info">
+                    <h3>Pull</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Sản phẩm đóng gói chắc chắn </p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/img-circle-5.png" alt="">
+                <div class="info">
+                    <h3>Hoàng thượng</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Giao hàng nhanh hài lòng!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/img-circle-7.png" alt="">
+                <div class="info">
+                    <h3>King</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Perfect!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/img-circle-8.png" alt="">
+                <div class="info">
+                    <h3>Bún</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Nhân viên thân thiện dễ thương tư vấn thiệt tình!</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="images/img-circle-4.png" alt="">
+                <div class="info">
+                    <h3>john</h3>
+                    <span>happy client</span>
+                </div>
+            </div>
+            <p>Cái shop gì đâu mà cute !</p>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- footer section starts  -->
+    <img src="images/bg-section.png" />
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+                <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+                <a href="review.html"> <i class="fas fa-arrow-right"></i> review</a>
+                <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+                <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my order </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my favorite </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my account </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> terms or use </a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/xoetxoetne"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" placeholder="enter your email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+                <img src="images/payment.png" class="payment" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="credit">created by group 8 | Business website development |<a href="Admin/login.html"> Administrators</a></section>
+
+    <!-- footer section ends -->
+    <!-- custom css file link-->
+    <script src="script.js"></script>
+</body>
+</html>

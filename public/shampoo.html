@@ -1,0 +1,440 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shampoo</title>
+    <link rel="shortcut icon" type="image/svg" href="images/logo-1.svg" />
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <!-- custom css file link-->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- header section starts-->
+
+    <header class="header">
+
+        <a class="logo">
+            <img width="70" height="50" src="images/logo-1.svg" />
+            <img src="images/Gami-1.svg" />
+        </a>
+
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="review.html">Review</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" placeholder="Search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-1.jpg" alt="" />
+                <div class="content">
+                    <h3>Toys</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">1</span>
+                    <span class="price">$10</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-2.jpg" alt="" />
+                <div class="content">
+                    <h3>Toys</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">1</span>
+                    <span class="price">$10</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-times"></i>
+                <img src="images/cart-3.jpg" alt="" />
+                <div class="content">
+                    <h3>Toys</h3>
+                    <span class="quantity">1</span>
+                    <span class="multiply">1</span>
+                    <span class="price">$10</span>
+                </div>
+            </div>
+            <h3 class="total"> Total: <span>30</span></h3>
+            <a href="Checkout.html" class="btn">Checkout cart</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login form</h3>
+            <div class="field email">
+                <div class="input-area">
+                    <input type="email" placeholder="Enter your email" class="box" />
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="Enter your password" class="box" />
+                    <i class="icon fas fa-lock"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me" />
+                <label for="remember-me">Remember me</label>
+            </div>
+            <input type="submit" value="Login now" class="btn" />
+            <p>forget password? <a href="#">Click here</a></p>
+            <p>don't have an account? <a href="register.html">Create one</a></p>
+        </form>
+        <script type="text/javascript">
+            window.$crisp = [];
+            window.CRISP_WEBSITE_ID = "e4983e6a-06f0-42ca-b683-b7723850abc0";
+            (function () {
+                d = document; s = d.createElement("script");
+                s.src = "https://client.crisp.chat/l.js"; s.async = 1;
+                d.getElementsByTagName("head")[0].appendChild(s);
+            })();</script>
+    </header>
+
+    <div class="heading-shampoo">
+        <h1>GaMi shop</h1>
+        <p> <a href="home.html">home >></a><a href="shop.html"> shop >></a> Shampoo</p>
+    </div>
+
+    <section class="category">
+
+        <h1 class="title"> Our <span>category</span></h1>
+
+        <div class="box-container">
+
+            <a href="pet_food.html" class="box">
+                <img src="images/img-vector-9-116x99.png" alt="">
+                <h3>Pet Food</h3>
+            </a>
+
+            <a href="shampoo.html" class="box">
+                <img src="images/img-vector-10-97x99.png" alt="">
+                <h3>Shampoo</h3>
+            </a>
+
+            <a href="pet_house.html" class="box">
+                <img src="images/img-vector-7-91x92.png" alt="">
+                <h3>Pet House</h3>
+            </a>
+
+            <a href="beauty.html" class="box">
+                <img src="images/img-vector-6.png" alt="">
+                <h3>Beauty</h3>
+            </a>
+
+            <a href="vaccine.html" class="box">
+                <img src="images/img-vector-8-88x91.png" alt="">
+                <h3>Vaccine</h3>
+            </a>
+
+        </div>
+
+    </section>
+    <section class="products">
+
+        <h1 class="title"> Sham<span>poo</span> <a href="shampoo_all.html">view all >></a> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-01.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>J&D dry shampoo</h3>
+                    <div class="price">$18.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-02.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>BBN sweet coconut</h3>
+                    <div class="price">$19.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-03.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Perfect coat (Baby powder)</h3>
+                    <div class="price">$21.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-04.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Trixie natural shampoo</h3>
+                    <div class="price">$24.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-05.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ultra white</h3>
+                    <div class="price">$18.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-06.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>J&D hair balm</h3>
+                    <div class="price">$17.90</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-07.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Davis Benzoyl Peroxide shampoo</h3>
+                    <div class="price">$18.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-08.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>J&D Deodorizing Formula</h3>
+                    <div class="price">$23.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-09.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>VFCC - Hotspot & Itch Relief</h3>
+                    <div class="price">$19.50</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/sh-10.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yú (bell flower)</h3>
+                    <div class="price">$20.90</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- footer section starts  -->
+
+    <img src="images/bg-section.png" />
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+                <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+                <a href="review.html"> <i class="fas fa-arrow-right"></i> review</a>
+                <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+                <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my order </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my favorite </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my wishlist </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my account </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> terms or use </a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" placeholder="enter your email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+                <img src="images/payment.png" class="payment" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="credit">created by group 8 | Business website development</section>
+
+    <!-- footer section ends -->
+    <!-- custom css file link-->
+    <script src="script.js"></script>
+</body>
+</html>
